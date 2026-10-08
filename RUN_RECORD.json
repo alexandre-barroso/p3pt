@@ -1,0 +1,8 @@
+{
+  "status": "PASS_FRESH_RECOMPUTATION",
+  "completed_utc": "2026-09-27T05:31:00.372799+00:00",
+  "fit_count": 27,
+  "result_sha256": "f5a3e04f2bcca24a99403b7c8eb447e919f1a4a230dc6f0a97e3c03a2760e383",
+  "maximum_absolute_difference": 0.0,
+  "scope": "Fresh public PSL recomputation of all scientific reference fields. Repository entry-point and formal checks recorded separately; no hosted CI execution."
+}

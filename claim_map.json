@@ -1,0 +1,11 @@
+{
+  "PT-T01": "model.read_types; model.assignment; science.population and splits",
+  "PT-T02": "terminal.features/vocabulary/matrix; reproduce 24 primary fits and validation selection",
+  "PT-T03": "science.models; tables.terminal_results",
+  "PT-T04": "terminal.paired_counts; science.contrasts and conditional bootstrap",
+  "PT-T05": "census joint cells and projected tables; terminal.longest_terminal",
+  "PT-T06": "census.selected_examples; science.census.public_examples_selection",
+  "PT-T07": "science.contrasts selective_minus_all_marks, all three families",
+  "PT-T08": "model.oracle; lean/CollisionBound.lean five finite count declarations; 143 lookup errors on the finite test only",
+  "PT-T09": "Bounded interpretation; not machine-certified novelty or human behavior"
+}

@@ -1,0 +1,21 @@
+{
+  ".github/workflows/checks.yml": "28a511363e7287c24b8c6c6e29e52bd76d0cf2ef4569fbff4d97d4beca3743df",
+  "CITATION.cff": "8bac72bebcd99173e83203c85f970216eb1ea1a2e7206f338f2024fba9ddaa09",
+  "PROTOCOL.md": "6d803e19e93305a57a478ad5afb6867b08320fcdc8910be81ac874ed7a6e4b70",
+  "README.md": "450570748146107eca78def32027d32b1aa1d602d8d254fe8bfabd511600ed04",
+  "RUN_RECORD.json": "f8eae102f8416fb445ab08dbc9f75537d0070fd6837aec53df86e644c7369b6d",
+  "census.py": "25c11564e36a4d5d597ca9b793e96e39afd6b622b330394fc1a7c7656f7a4a2c",
+  "claim_map.json": "b3329c79cb4c7fe7142afbe8ebca75f876753c03bc39abf64db938cec45b22a5",
+  "draw_figures.py": "f8e2992c1b3ef5967a9f46c87776883c5a5510df6da4c5229152ee2e2aa43c94",
+  "expected_tables.json": "9110b7c866cc884face90b1fdf390ca4caa576f1b513ecdf813a75ef805a0027",
+  "lean/CollisionBound.lean": "7a5b14e42048eec1ebdceda0ef6e013f4e9fa129db089be42f4de0adb451442d",
+  "lean/lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+  "marks.py": "41823df670cd35e8f358bd94221f9419ec4e5cf2dd933fea050a4ab615e490de",
+  "model.py": "e043c15060bf3ac6ace2818a1254a1a7bb496f90852060d8f04700301b8e2380",
+  "reference_results.json": "047f9da056a10afb15a89b40a8bb6248a4f2eeef2715a56725f26ebf80c4e970",
+  "reproduce.py": "2ce35db5d462dca257a67b7cacdfcfb21e7c6025ffface316074bad1786e7417",
+  "requirements.txt": "15023b79e401f66ffb55a42f011bffb70f3cdca94701c24f00b8354cbdbb7fc4",
+  "tables.py": "f7dc76fe01450521c8a88362d1050fbcf69ae813231f141d56522768f01c4a10",
+  "terminal.py": "94f39e232a1a578ce28e9ea213c2bbaf6f62406d61d716d515f47d6d5688fc55",
+  "verify.py": "d998cbd7ae3ae9292f01ace6e33882b28634148360e32c0bfceb34cf76abfd1d"
+}

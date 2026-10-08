@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite the selected associated manuscript and identify the code version used."
+title: "Terminal controls in lexical stress label recovery"
+type: software
+authors:
+  - family-names: Barroso
+    given-names: Alexandre Menezes
+    orcid: "https://orcid.org/0009-0005-2794-767X"
+version: "2.0.0-local"

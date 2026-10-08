@@ -1,0 +1,347 @@
+{
+  "population": {
+    "caption": "Tipos, grupos gráficos sem marcas e classes de referência no PSL.",
+    "headers": [
+      "Partição",
+      "Tipos",
+      "Grupos",
+      "Última",
+      "Penúltima",
+      "Antepenúltima"
+    ],
+    "rows": [
+      [
+        "Treino",
+        "90.034",
+        "88.848",
+        "15.703",
+        "62.241",
+        "12.090"
+      ],
+      [
+        "Validação",
+        "19.379",
+        "19.133",
+        "3.440",
+        "13.391",
+        "2.548"
+      ],
+      [
+        "Teste",
+        "19.266",
+        "18.997",
+        "3.500",
+        "13.275",
+        "2.491"
+      ]
+    ],
+    "note": "Cada tipo tem um único rótulo. Os grupos gráficos são disjuntos entre partições; os tipos têm peso uniforme."
+  },
+  "terminal_results": {
+    "caption": "Desempenho dos seis procedimentos no teste de 19.266 tipos.",
+    "headers": [
+      "Entrada",
+      "Modelo",
+      "Ac. (%)",
+      "F1 macro",
+      "Perda log.",
+      "Acertos AP",
+      "R AP (%)"
+    ],
+    "rows": [
+      [
+        "Sem marcas",
+        "Palavra",
+        "94,9912",
+        "0,9310",
+        "0,145023",
+        "2.205",
+        "88,5187"
+      ],
+      [
+        "Sem marcas",
+        "Terminal5",
+        "94,8458",
+        "0,9282",
+        "0,151633",
+        "2.201",
+        "88,3581"
+      ],
+      [
+        "Sem marcas",
+        "Terminal4",
+        "94,3008",
+        "0,9199",
+        "0,162410",
+        "2.178",
+        "87,4348"
+      ],
+      [
+        "Retirada seletiva",
+        "Palavra",
+        "95,3337",
+        "0,9354",
+        "0,134622",
+        "2.206",
+        "88,5588"
+      ],
+      [
+        "Retirada seletiva",
+        "Terminal5",
+        "95,2922",
+        "0,9341",
+        "0,139372",
+        "2.211",
+        "88,7595"
+      ],
+      [
+        "Retirada seletiva",
+        "Terminal4",
+        "94,8043",
+        "0,9267",
+        "0,148678",
+        "2.179",
+        "87,4749"
+      ]
+    ],
+    "note": "AP: classe antepenúltima (2.491 tipos); R: recuperação; Ac.: acurácia. Retirada seletiva remove agudo e circunflexo. Cada procedimento tem vocabulário, normalização e ajuste próprios; todos selecionaram C = 10 por perda de validação."
+  },
+  "paired_ap": {
+    "caption": "Acertos pareados dos 2.491 tipos antepenúltimos sem marcas.",
+    "headers": [
+      "Palavra",
+      "Terminal5 acerta",
+      "Terminal5 erra",
+      "Total"
+    ],
+    "rows": [
+      [
+        "Acerta",
+        "2.143",
+        "62",
+        "2.205"
+      ],
+      [
+        "Erra",
+        "58",
+        "228",
+        "286"
+      ],
+      [
+        "Total",
+        "2.201",
+        "290",
+        "2.491"
+      ]
+    ],
+    "note": "A diferença líquida de quatro acertos não identifica os 120 tipos em que somente um procedimento acerta."
+  },
+  "ap_strata": {
+    "caption": "Recuperação antepenúltima por terminações gráficas.",
+    "headers": [
+      "Terminação",
+      "Tipos",
+      "Palavra",
+      "R (%)",
+      "Terminal5",
+      "R (%)"
+    ],
+    "rows": [
+      [
+        "ico/ica/icos/icas",
+        "1.334",
+        "1.323",
+        "99,18",
+        "1.322",
+        "99,10"
+      ],
+      [
+        "logo/loga/logos/logas",
+        "57",
+        "56",
+        "98,25",
+        "56",
+        "98,25"
+      ],
+      [
+        "Restante",
+        "1.100",
+        "826",
+        "75,09",
+        "823",
+        "74,82"
+      ]
+    ],
+    "note": "Contagens de acertos e recuperação na condição sem marcas. Categorias gráficas mutuamente exclusivas; o restante não é uma classe morfológica."
+  },
+  "joint_coverage": {
+    "caption": "Cobertura terminal e resultados pareados na classe antepenúltima.",
+    "headers": [
+      "Cobertura",
+      "Tipos",
+      "Ambos",
+      "Só Palavra",
+      "Só Terminal5",
+      "Nenhum"
+    ],
+    "rows": [
+      [
+        "<5",
+        "241",
+        "66",
+        "31",
+        "15",
+        "129"
+      ],
+      [
+        "5",
+        "2.250",
+        "2.077",
+        "31",
+        "43",
+        "99"
+      ]
+    ],
+    "note": "Cobertura: comprimento da maior terminação presente em pelo menos dois tipos de treino. Ambos/nenhum indicam acerto conjunto/erro conjunto. Todos esses tipos têm pelo menos cinco caracteres sem marcas."
+  },
+  "ending_coverage": {
+    "caption": "Terminações e cobertura nos mesmos tipos antepenúltimos.",
+    "headers": [
+      "Terminação",
+      "Cobertura",
+      "Tipos",
+      "Palavra",
+      "Terminal5",
+      "Nenhum"
+    ],
+    "rows": [
+      [
+        "ico/ica/icos/icas",
+        "<5",
+        "11",
+        "7",
+        "7",
+        "4"
+      ],
+      [
+        "ico/ica/icos/icas",
+        "5",
+        "1.323",
+        "1.316",
+        "1.315",
+        "4"
+      ],
+      [
+        "logo/loga/logos/logas",
+        "<5",
+        "1",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "logo/loga/logos/logas",
+        "5",
+        "56",
+        "56",
+        "56",
+        "0"
+      ],
+      [
+        "Restante",
+        "<5",
+        "229",
+        "90",
+        "74",
+        "124"
+      ],
+      [
+        "Restante",
+        "5",
+        "871",
+        "736",
+        "749",
+        "95"
+      ]
+    ],
+    "note": "Palavra e Terminal5: acertos; nenhum: erros conjuntos. Cruzamento descritivo posterior aos resultados marginais; não separa efeitos causais das dimensões."
+  },
+  "lexical_examples": {
+    "caption": "Exemplos determinados pelo critério de seleção do censo.",
+    "headers": [
+      "Grafia PSL",
+      "Entrada",
+      "Sílabas",
+      "Cobertura",
+      "Palavra",
+      "Terminal5"
+    ],
+    "rows": [
+      [
+        "décimo",
+        "decimo",
+        "3",
+        "4",
+        "AP",
+        "AP"
+      ],
+      [
+        "imetódico",
+        "imetodico",
+        "5",
+        "5",
+        "AP",
+        "AP"
+      ],
+      [
+        "astrágalo",
+        "astragalo",
+        "4",
+        "4",
+        "AP",
+        "P"
+      ],
+      [
+        "centígrado",
+        "centigrado",
+        "4",
+        "5",
+        "AP",
+        "P"
+      ],
+      [
+        "consólida",
+        "consolida",
+        "4",
+        "4",
+        "P",
+        "AP"
+      ],
+      [
+        "orófilo",
+        "orofilo",
+        "4",
+        "5",
+        "P",
+        "AP"
+      ],
+      [
+        "mázace",
+        "mazace",
+        "3",
+        "3",
+        "P",
+        "P"
+      ],
+      [
+        "adenópata",
+        "adenopata",
+        "5",
+        "5",
+        "P",
+        "P"
+      ]
+    ],
+    "note": "Referência antepenúltima em todos os casos. AP: antepenúltima; P: penúltima. Um exemplo por resultado pareado × cobertura <5/5, escolhido pelo menor hash com prefixo fixo. Ilustrações não representativas; conservam a anotação do PSL."
+  }
+}
