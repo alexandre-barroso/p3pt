@@ -1,6 +1,6 @@
 # Controles terminais na recuperação de rótulos acentuais
 
-Código original do estudo que compara atributos de toda a palavra com atributos restritos às terminações gráficas. O único dado necessário é a versão pública do Portuguese Stress Lexicon, obtida separadamente. O código não depende do antigo inventário de transcrições nem de arquivos privados do projeto que motivou a pesquisa. O CSV não é distribuído aqui. 
+Código original do estudo que compara atributos de toda a palavra com atributos restritos às terminações gráficas. O único dado necessário é a versão pública do Portuguese Stress Lexicon, obtida separadamente. O código não depende do antigo inventário de transcrições nem de arquivos privados do projeto que motivou a pesquisa. O CSV não é distribuído aqui. **Observação importante: para revisão anônima de pares, CITATION.cff foi removido, o que afeta os hashes do repositório, sendo necessário (na rodada de revisão) fazer uma pequena alteração nos arquivos para rodar o repositório sem que ele sinta falta falta desse arquivo.**
 
 ## Ambiente e verificação
 
